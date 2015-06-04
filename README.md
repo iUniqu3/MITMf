@@ -87,7 +87,7 @@ If MITMf is not in your distro's repo or you just want the latest version:
 - Remove ```pypcap``` from ```requirements.txt``` (ONLY @Kali Linux)
 - Run the command ```pip install --upgrade -r requirements.txt``` to install all Python dependencies
 
-On Kali Linux, run ```apt-get install python-pypcap```
+On Kali Linux run ```apt-get install python-pypcap```
 
 Enjoy
 
