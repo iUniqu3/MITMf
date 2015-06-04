@@ -84,9 +84,12 @@ Installation
 If MITMf is not in your distro's repo or you just want the latest version:
 - Run the command ```git clone https://github.com/byt3bl33d3r/MITMf.git``` to clone this directory
 - Run the ```setup.sh``` script
+- Remove ```pypcap``` from ```requirements.txt``` (ONLY @Kali Linux)
 - Run the command ```pip install --upgrade -r requirements.txt``` to install all Python dependencies
 
-On Kali Linux, if you get an error while installing the ```pypcap``` package or when starting MITMf you see: ```ImportError: no module named pcap```, run ```apt-get install python-pypcap``` to fix it
+On Kali Linux, run ```apt-get install python-pypcap```
+
+Enjoy
 
 Submitting Issues
 =================
